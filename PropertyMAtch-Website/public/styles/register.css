@@ -1,0 +1,123 @@
+/* Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #f4f8fc;
+}
+
+/* Section */
+.register-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 110vh;
+    padding: 10px;
+}
+
+/* Wrapper */
+.register-wrapper {
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 480px;
+    padding: 30px;
+}
+
+/* Header */
+.register-header {
+    background: #00bfff;
+    color: white;
+    text-align: center;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin: -30px -30px 25px -30px;
+    padding: 10px;
+}
+
+.register-header h2 {
+    font-size: 46px;
+    color: white;
+    font-weight: bold;
+}
+
+/* Form */
+.register-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.register-field {
+    margin-bottom: 18px;
+}
+
+.register-field label {
+    font-weight: bold;
+    margin-bottom: 6px;
+    display: block;
+    color: #333;
+}
+
+.register-field input {
+    width: 100%;
+    padding: 12px 15px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    font-size: 15px;
+    transition: 0.3s;
+}
+
+.register-field input:focus {
+    border-color: #00bfff;
+    box-shadow: 0 0 5px rgba(0, 191, 255, 0.4);
+    outline: none;
+}
+
+/* Button */
+.register-btn {
+    background: #00bfff;
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.register-btn:hover {
+    background: #009acd;
+}
+
+/* Link */
+.register-login-text {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.register-login-text a {
+    color: #00bfff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.register-login-text a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 500px) {
+    .register-wrapper {
+        padding: 20px;
+    }
+
+    .register-header h2 {
+        font-size: 22px;
+    }
+}
