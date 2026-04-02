@@ -1,0 +1,139 @@
+/* Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #f1f4f8;
+}
+
+/* Main Section */
+.login-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+/* Login Wrapper */
+.login-wrapper {
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 450px;
+    padding: 30px;
+    transition: 0.3s;
+}
+
+.login-header {
+    background: #00bfff;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding: 20px;
+    margin: -30px -30px 20px -30px;
+    text-align: center;
+    color: white;
+}
+
+.login-header h2 {
+    font-size: 46px;
+    color: white;
+    font-weight: bold;
+}
+
+/* Form */
+.login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-field {
+    margin-bottom: 20px;
+}
+
+.login-field label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+    color: #333;
+}
+
+.login-field input {
+    width: 100%;
+    padding: 12px 15px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.login-field input:focus {
+    border-color: #00bfff;
+    box-shadow: 0 0 5px rgba(0, 191, 255, 0.4);
+    outline: none;
+}
+
+/* Options */
+.login-options {
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.login-forgot {
+    font-size: 14px;
+    color: #00bfff;
+    text-decoration: none;
+}
+
+.login-forgot:hover {
+    text-decoration: underline;
+}
+
+/* Button */
+.login-btnn {
+    background: #00bfff;
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.login-btnn:hover {
+    background: #009acd;
+}
+
+/* Register Text */
+.login-register-text {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.login-register-text a {
+    color: #00bfff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.login-register-text a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 500px) {
+    .login-wrapper {
+        padding: 20px;
+    }
+
+    .login-header h2 {
+        font-size: 22px;
+    }
+}
