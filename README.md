@@ -1,8 +1,8 @@
 
-# PropertyMatch — Property Rental Platform
+# PropertyMatch - Property Rental Platform
 
 > Final Year Project | B.Sc. Software Engineering (Honours)
-> University of Central Punjab, Lahore, Pakistan | 2024–2025
+> University of Central Punjab, Lahore, Pakistan | 2024-2025
 > **Author:** Sohail Ahsan · [sohailahsan015@gmail.com](mailto:sohailahsan015@gmail.com) · [github.com/sohailahsan0393](https://github.com/sohailahsan0393)
 
 ---
@@ -72,14 +72,14 @@ PropertyMatch addresses this by transforming free-text input into structured dat
 
 ## Key Features
 
-- **Natural language property search** — plain English input interpreted as structured filters
-- **NLP classification pipeline** — trained on 200+ manually annotated query examples
-- **Laravel MVC architecture** — clean separation of routing, business logic, and views
-- **Eloquent ORM** — database interactions through Laravel's object-relational mapper
-- **Automated test suite** — unit and feature tests written with Pest PHP
-- **Authentication system** — user registration, login, and personalised search history
-- **Environment-based configuration** — `.env` file for secure credential management
-- **Docker-ready** — Laravel Sail configuration for containerised local development
+- **Natural language property search** - plain English input interpreted as structured filters
+- **NLP classification pipeline** - trained on 200+ manually annotated query examples
+- **Laravel MVC architecture** - clean separation of routing, business logic, and views
+- **Eloquent ORM** - database interactions through Laravel's object-relational mapper
+- **Automated test suite** - unit and feature tests written with Pest PHP
+- **Authentication system** - user registration, login, and personalised search history
+- **Environment-based configuration** - `.env` file for secure credential management
+- **Docker-ready** - Laravel Sail configuration for containerised local development
 
 ---
 
@@ -87,13 +87,13 @@ PropertyMatch addresses this by transforming free-text input into structured dat
 
 The recommendation engine processes user input in three stages:
 
-**Stage 1 — Query Preprocessing**
+**Stage 1  Query Preprocessing**
 Raw input is cleaned, tokenised, and normalised. Key entities are extracted: location references, price range indicators, property type keywords, and amenity descriptors.
 
-**Stage 2 — Text Classification**
+**Stage 2 Text Classification**
 A classifier trained on 200+ manually annotated rental queries assigns intent labels to the processed input. The annotation process categorised queries by property type, location specificity, budget range, and amenity requirements.
 
-**Stage 3 — Filter Mapping and Ranking**
+**Stage 3  Filter Mapping and Ranking**
 Classified intents are mapped to structured MySQL query parameters via the Laravel backend. Matching properties are retrieved through Eloquent and ranked by a relevance score calculated from the degree of match between query features and property attributes.
 
 **Evaluation**
@@ -203,8 +203,8 @@ php artisan test
 
 Developed as the Final Year Project (FYP) for the degree of **Bachelor of Science in Software Engineering (Honours)** at the **University of Central Punjab**, Lahore, Pakistan (2021–2025). Completed across two semesters:
 
-- **FYP-I** (Semester 7, Fall 2024) — System design, dataset annotation, NLP pipeline, Laravel architecture
-- **FYP-II** (Semester 8, Spring 2025) — Full integration, test suite, evaluation, documentation
+- **FYP-I** (Semester 7, Fall 2024) - System design, dataset annotation, NLP pipeline, Laravel architecture
+- **FYP-II** (Semester 8, Spring 2025) - Full integration, test suite, evaluation, documentation
 
 | Degree Module | Applied In Project |
 |---|---|
@@ -228,8 +228,8 @@ Developed as the Final Year Project (FYP) for the degree of **Bachelor of Scienc
 ## Author
 
 **Sohail Ahsan**
-B.Sc. Software Engineering (Honours) — University of Central Punjab, Lahore
-IELTS Academic: 6.0
+B.Sc. Software Engineering (Honours) - University of Central Punjab, Lahore
+
 GitHub: [github.com/sohailahsan0393](https://github.com/sohailahsan0393)
 Email: [sohailahsan015@gmail.com](mailto:sohailahsan015@gmail.com)
 
