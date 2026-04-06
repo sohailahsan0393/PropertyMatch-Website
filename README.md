@@ -11,7 +11,7 @@
 
 PropertyMatch is a full-stack web application that enables users to search for rental properties using **natural language queries**. Instead of rigid filter forms, users describe what they are looking for in plain English. The system parses the query, matches it against a property database, and returns ranked results.
 
-The project integrates **Laravel web application development**, **relational database design**, **automated testing**, and a **natural language processing pipeline** into a single production-structured system — demonstrating a complete software engineering lifecycle from design to tested deployment.
+The project integrates **Laravel web application development**, **relational database design**, **automated testing**, and a **natural language processing pipeline** into a single production-ready system that demonstrates the complete software engineering lifecycle from design to tested deployment.
 
 ---
 
@@ -201,7 +201,7 @@ php artisan test
 
 ## Academic Context
 
-Developed as the Final Year Project (FYP) for the degree of **Bachelor of Science in Software Engineering (Honours)** at the **University of Central Punjab**, Lahore, Pakistan (2021–2025). Completed across two semesters:
+Developed as the Final Year Project (FYP) for the degree of **Bachelor of Science in Software Engineering (Honours)** at the **University of Central Punjab**, Lahore, Pakistan (2021-2025). Completed across two semesters:
 
 - **FYP-I** (Semester 7, Fall 2024) - System design, dataset annotation, NLP pipeline, Laravel architecture
 - **FYP-II** (Semester 8, Spring 2025) - Full integration, test suite, evaluation, documentation
